@@ -1,0 +1,300 @@
+body {
+    font-family: 'Open Sans', Arial, Tahoma;
+    font-weight: 400;
+    font-size: 1em;
+    color: #363636;
+    background: #ededed;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+#photo-header {
+    margin-top: -75px;
+}
+
+#photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 5px;
+    background: #ededed;
+    display: inline-block;
+}
+
+#photo .image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #8ebebe;
+}
+
+#text:after {
+    width: 100%;
+    height: 3px;
+    background: url(http://kamsolutions.pl/projects/resume/img/line.png);
+    margin-top: 15px;
+    content: '';
+    display: block;
+}
+
+#text h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+#text h1 span {
+    color: #F0563D;
+}
+
+#text h1 sup {
+    opacity: 0.5;
+}
+
+.box {
+    margin-bottom: 15px;
+}
+
+.box h2 {
+    color: #EC7263;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box h2:before {
+    content: '//';
+    margin-right: 5px;
+}
+
+.box p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#education {
+    margin-top: 20px;
+    position: relative;
+    padding: 1em 0;
+    list-style: none;
+}
+
+#education:before {
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    left: 25px;
+    top: 0;
+    content: ' ';
+    display: block;
+}
+
+#education li {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    float: left;
+}
+
+#education .year {
+    width: 10%;
+    background: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#education .pull-left {
+    float: left;
+}
+
+#education .pull-right {
+    float: left !important;
+}
+
+#education .description {
+    width: 80%;
+    display: inline-block;
+    background: #eee;
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#education .description p {
+    font-size: 1.3em;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#education .description:after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    left: -16px;
+    height: 0;
+    width: 0;
+    border: solid transparent;
+    border-right-color: #eee;
+    border-width: 8px;
+    pointer-events: none;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job .where {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.job .year {
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+
+.job .profession {
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.job .description {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.contact-item {
+    width: 100%;
+    float: left;
+    margin-top:10px;
+}
+
+.contact-item .icon {
+    padding: 10px;
+    background-color: #8ebebe;
+    border-right: 1px solid #aa7371;
+    border-bottom: 1px solid #4d79a5;
+    opacity: 0.2;
+    height:35px;
+    width:40px;
+
+}
+
+
+.contact-item .fa {
+    font-size: 2em;
+}
+
+.fa-fw {
+    width: 1.2857142857142858em;
+    text-align: center;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.contact-item .title .only {
+    margin-top: 10px;
+}
+
+.contact-item .title {
+    width: 80%;
+    width: calc(100% - 55px);
+    font-size: 1.5em;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.contact-item .left{
+    float: left;
+    margin-left:15px;
+    opacity: 0.75;
+}
+
+.item-skills {
+    height: 30px;
+    background: #F0563D;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.skill-1{
+    width:100%;
+}
+.skill-2{
+    width: 86%;
+}
+.skill-3{
+    width:76%;
+}
+.skill-4{
+    width:58%;
+}
+.skill-5{
+    width:42%;
+}
+
+.language-skills .skill {
+    font-size: 1.3em;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.language-skills .bar{
+    width:100px;
+    height:23px;
+    margin-bottom: 5px;
+    background-color: #ededed;
+}
+.language-skills .bar1{
+    width:80%;
+    background-color: #4d79a5;
+}
+
+.hobby{
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 25px;
+    background: #A75265;
+    position: relative;
+    font-size: 1.2em;
+}
+.hobby:before {
+    content: "\f004";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    top: 6px;
+    left: 7px;
+}
+.div-space{
+    height: 50px;
+    opacity: 0.55;
+    line-height: 50px;
+}
